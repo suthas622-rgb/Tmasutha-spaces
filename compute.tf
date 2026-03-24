@@ -28,7 +28,7 @@ resource "aws_security_group_ingress_rule" "https" {
 }
 
 resource "aws_lb" "devalb" {
-  name = "dev-ALB"
+  name = "dev-ALBs"
   internal = false
   load_balancer_type = "application"
   subnets = aws
